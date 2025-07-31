@@ -1,5 +1,7 @@
 # 🐳 API .NET 8 + PostgreSQL com Docker: Estrutura de Teste de Comandos
 
+> 🇺🇸 Looking for the English version? [Click here](README.en.md)
+
 Este repositório apresenta uma base de testes voltada para desenvolvedores que desejam **praticar comandos essenciais do Docker** aplicados a uma aplicação ASP.NET Core com PostgreSQL.
 
 A aplicação foi gerada com o **template padrão do Visual Studio para APIs .NET 8**, o qual já inclui um `Dockerfile` pronto para uso. Foram adicionados **endpoints simples de GET e POST** e feita a integração com um **banco PostgreSQL em container**, permitindo simular uma arquitetura básica de aplicação + banco.
