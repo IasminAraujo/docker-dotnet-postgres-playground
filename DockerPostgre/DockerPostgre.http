@@ -1,0 +1,18 @@
+@DockerPostgre_HostAddress = http://localhost:8080
+
+GET {{DockerPostgre_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{DockerPostgre_HostAddress}}/usuario
+Accept: application/json
+
+###
+
+POST {{DockerPostgre_HostAddress}}/usuario
+Content-Type: application/json
+
+"José"
+
+###
